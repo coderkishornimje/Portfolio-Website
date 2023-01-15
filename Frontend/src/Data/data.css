@@ -1,0 +1,97 @@
+
+*{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.data-container.scroll{
+  margin:4px, 4px;
+  padding:4px;
+  width: 102%;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
+#comm-heading{
+ padding-left: 10px;
+ color: rgb(85, 7, 7);
+ background-color: rgb(253, 253, 253);
+ margin-left: 15px;
+ margin-right: 40px;
+ border-radius: 5px;
+ padding: 2%;
+ font-size: 2vw;
+}
+
+.child-contain{
+  padding-left: 10px;
+ background-color: rgb(253, 253, 253);
+ margin-left: 15px;
+ margin-right: 40px;
+ border-radius: 5px;
+ padding: 2%;
+ margin: 2%;
+ height: auto;
+ width: 100%;
+}
+
+.namepic{
+display: flex;
+margin: 10px 0px 5px 0px;
+}
+
+#comm-pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 10px solide black;
+ 
+}
+#comm-name{
+  margin:17px 0px 0px 5px; 
+  color: rgb(164, 27, 27);
+}
+
+.comm-btn{
+  margin-left: 80%;
+  padding: 2%;
+background-color: rgb(52, 52, 150);
+color:white;
+cursor: pointer;
+border-radius: 10%;
+}
+
+.comm-btn:hover{
+  background-color: rgb(74, 25, 25);
+ 
+}
+
+@media screen and (max-width:720px){
+  
+
+
+  #comm-heading{
+    font-size: 15px;
+  }
+  
+   .namepic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .comm-btn{
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 2%;
+  background-color: rgb(52, 52, 150);
+  color:white;
+  cursor: pointer;
+  border-radius: 10%;
+  }
+}

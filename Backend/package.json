@@ -1,0 +1,23 @@
+{
+  "name": "messages",
+  "version": "1.0.0",
+  "description": "respond from user",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+    "start-server": "node server.js && npm start"
+    
+  },
+  "author": "kishor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.8.2",
+    "nodemodule": "^0.3.0"
+  }
+}
