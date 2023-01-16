@@ -7,7 +7,6 @@
   "scripts": {
     "start": "nodemon server.js nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
     "start-server": "node server.js && npm start"
-    
   },
   "author": "kishor",
   "license": "ISC",
